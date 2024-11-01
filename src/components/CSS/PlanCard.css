@@ -1,0 +1,170 @@
+/* src/components/PlanCard.css */
+
+.plan-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Make width responsive */
+  max-width: 300px; /* Ensure a max width */
+  padding: 30px;
+  position: relative;
+  transition: transform 0.3s ease;
+  text-align: center;
+  border: 2px solid transparent;
+  margin: 20px auto; /* Center the card */
+}
+
+.plan-card.popular {
+  border-color: #1f98f4;
+  transform: scale(1.05);
+}
+
+.plan-card .badge {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background-color: #ff6f61;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.plan-card h3 {
+  font-size: 1.6rem; /* Adjusted for responsiveness */
+  margin-bottom: 10px;
+}
+
+.plan-card h4 {
+  font-size: 1.4rem; /* Adjusted for responsiveness */
+  color: #1f98f4;
+  margin-bottom: 15px;
+}
+
+.plan-card h5 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.plan-card h4 span {
+  font-size: 0.9rem;
+  color: #888;
+}
+.plan-card h5 span {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.plan-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.plan-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan-card ul li {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: #363232;
+}
+
+.plan-card button {
+  background-color: #1f98f4;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  margin: 5px;
+}
+
+.plan-card button:hover {
+  background-color: #1f98f4b7;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .plan-card {
+    width: 80%; /* Scale card width down for tablets and smaller devices */
+    max-width: 400px; /* Adjust for larger view on medium screens */
+  }
+
+  .plan-card h3 {
+    font-size: 1.5rem; /* Adjust for smaller screens */
+  }
+
+  .plan-card h4 {
+    font-size: 1.3rem;
+  }
+
+  .plan-card h5 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    width: 100%; /* Full width for mobile */
+    max-width: none;
+    padding: 20px; /* Reduce padding on mobile */
+  }
+
+  .plan-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .plan-card h4 {
+    font-size: 1.2rem;
+  }
+
+  .plan-card h5 {
+    font-size: 0.9rem;
+  }
+
+  .plan-card p,
+  .plan-card ul li {
+    font-size: 0.9rem; /* Adjust font sizes for better readability on mobile */
+  }
+
+  .plan-card button {
+    padding: 8px; /* Smaller buttons on mobile */
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .plan-card {
+    padding: 15px; /* Further reduce padding for very small screens */
+  }
+
+  .plan-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .plan-card h4 {
+    font-size: 0.8rem;
+  }
+
+  .plan-card h5 {
+    font-size: 0.85rem;
+  }
+
+  .plan-card p,
+  .plan-card ul li {
+    font-size: 0.85rem;
+  }
+}

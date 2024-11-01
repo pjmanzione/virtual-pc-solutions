@@ -1,0 +1,263 @@
+/* src/components/ContentSection.remote-css */
+
+.remote-content-section {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #e3f2fd, #e5e6df);
+  color: #333;
+}
+
+.remote-content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.remote-content-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.remote-content-container p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.remote-highlight {
+  font-weight: bold;
+  color: green;
+}
+
+.remote-features-section {
+  padding: 20px 0px;
+}
+
+.remote-features-section h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.remote-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: transparent;
+  align-items: stretch;
+  box-shadow: none;
+  gap: 20px;
+}
+
+.remote-feature {
+  flex: 1 1 30%; /* Adjust flex basis for desired card width */
+  margin: 10px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remote-feature:hover {
+  transform: translateY(-5px);
+}
+
+.remote-feature-icon {
+  font-size: 3rem;
+  color: #1f98f4;
+  margin-bottom: 15px;
+}
+
+.remote-feature h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.remote-feature p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.remote-feature-image h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.remote-feature-image img {
+  width: 1000px;
+  height: 700px;
+}
+
+.remote-feature-image h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.remote-cloud-remote {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.349);
+  padding-bottom: 50px;
+  border: none;
+  padding: 50px;
+  margin: 50px;
+}
+
+.remote-cloud-remote button {
+  padding: 20px;
+  width: 500px;
+  height: 8vh;
+}
+
+.remote-cloud-remote p {
+  font-size: 2rem;
+}
+
+.remote-faq {
+  margin: 30px;
+  background-color: transparent;
+}
+
+@media (max-width: 1024px) {
+  .remote-content-container h2 {
+    font-size: 2rem;
+  }
+
+  .remote-content-container p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .remote-features-section h3 {
+    font-size: 1.75rem;
+  }
+
+  .remote-feature {
+    width: calc(50% - 20px);
+  }
+
+  .remote-feature h4 {
+    font-size: 1.25rem;
+  }
+
+  .remote-feature p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .remote-content-section {
+    align-items: center;
+    justify-content: center;
+  }
+  .remote-content-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .remote-content-container p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .remote-features-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .remote-feature {
+    width: 100%;
+  }
+
+  .remote-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: transparent;
+    box-shadow: none;
+    gap: 20px;
+  }
+
+  .remote-feature-icon {
+    font-size: 2.5rem;
+  }
+
+  .remote-feature h4 {
+    font-size: 1.25rem;
+  }
+
+  .remote-feature p {
+    font-size: 0.9rem;
+  }
+  .remote-feature-image img {
+    padding: 10px;
+    width: auto;
+    height: 31.9vh;
+  }
+
+  .remote-cloud-container {
+    width: auto;
+    height: auto;
+  }
+
+  .remote-cloud-remote {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    line-height: 50px;
+  }
+
+  .remote-cloud-remote button {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .remote-content-section {
+    align-items: center;
+    justify-content: center;
+  }
+  .remote-content-container {
+    padding: 20px 10px;
+  }
+
+  .remote-content-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .remote-content-container p {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+  }
+
+  .remote-features-section h3 {
+    font-size: 1.25rem;
+  }
+
+  .remote-feature {
+    padding: 15px;
+  }
+
+  .remote-feature-icon {
+    font-size: 2rem;
+  }
+
+  .remote-feature h4 {
+    font-size: 1rem;
+  }
+
+  .remote-feature p {
+    font-size: 0.85rem;
+  }
+}

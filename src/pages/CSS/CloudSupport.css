@@ -1,0 +1,322 @@
+/* src/components/ContentSection.cloud-css */
+
+.cloud-content-section {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #e3f2fd, #e5e6df);
+  color: #333;
+}
+
+.cloud-content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cloud-content-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.cloud-content-container p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.cloud-highlight {
+  font-weight: bold;
+  color: green;
+}
+
+.cloud-features-section {
+  padding: 20px 0px;
+}
+.cloud-features-section h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.cloud-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: transparent;
+  align-items: stretch;
+  box-shadow: none;
+  gap: 20px;
+}
+
+.cloud-feature {
+  flex: 1 1 30%; /* Adjust flex basis for desired card width */
+  margin: 10px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cloud-feature:hover {
+  transform: translateY(-5px);
+}
+
+.cloud-feature-icon {
+  font-size: 3rem;
+  color: #1f98f4;
+  margin-bottom: 15px;
+}
+
+.cloud-feature h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.cloud-feature p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.cloud-feature-image h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.cloud-feature-image img {
+  width: 1000px;
+  height: 700px;
+}
+
+.cloud-feature-image h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.cloud-cloud-remote {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 349);
+  padding-bottom: 50px;
+  border: none;
+  padding: 50px;
+  margin: 50px;
+}
+
+.cloud-cloud-remote button {
+  padding: 20px;
+  width: 500px;
+  height: 8vh;
+}
+
+.cloud-cloud-remote p {
+  font-size: 2rem;
+}
+
+.cloud-compute-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cloud-compute {
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 20px;
+  /* background-color: #003f8815; */
+  line-height: 50px;
+  padding: 10px;
+  margin: 30px;
+  width: auto;
+  height: auto;
+}
+.cloud-compute h1 {
+  font-size: 3rem;
+  color: #1f98f4;
+}
+.cloud-compute h2 {
+  font-size: 2rem;
+  color: #1f98f4;
+}
+
+.cloud-compute-container2 {
+  display: inline-block;
+}
+.cloud-compute2 {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #003f8815;
+  line-height: 50px;
+  padding: 10px;
+  margin: 30px;
+  width: auto;
+  height: auto;
+}
+.cloud-compute2 h2 {
+  font-size: 3rem;
+}
+
+.cloud-contact-form {
+  align-items: center;
+  text-align: center;
+}
+
+.cloud-contact-form p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+@media (max-width: 1024px) {
+  .cloud-content-container h2 {
+    font-size: 2rem;
+  }
+
+  .cloud-content-container p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .cloud-features-section h3 {
+    font-size: 1.75rem;
+  }
+
+  .cloud-feature {
+    width: calc(50% - 20px);
+  }
+
+  .cloud-feature h4 {
+    font-size: 1.25rem;
+  }
+
+  .cloud-feature p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cloud-content-section {
+    align-items: center;
+    justify-content: center;
+  }
+  .cloud-content-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .cloud-content-container p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .cloud-features-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .cloud-feature {
+    width: 100%;
+  }
+
+  .cloud-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: transparent;
+    box-shadow: none;
+    gap: 20px;
+  }
+
+  .cloud-feature-icon {
+    font-size: 2.5rem;
+  }
+
+  .cloud-feature h4 {
+    font-size: 1.25rem;
+  }
+
+  .cloud-feature p {
+    font-size: 0.9rem;
+  }
+  .cloud-feature-image img {
+    padding: 10px;
+    width: auto;
+    height: 31.9vh;
+  }
+
+  .cloud-compute-container {
+    width: auto;
+    height: auto;
+  }
+  .cloud-compute {
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 20px;
+    /* background-color: #003f8815; */
+    padding: 10px;
+    margin: 10px;
+    /* line-height: 30px; */
+  }
+  .cloud-compute h2 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .cloud-compute2 {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: #003f8815;
+    line-height: 15px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cloud-compute2 h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cloud-content-section {
+    align-items: center;
+    justify-content: center;
+  }
+  .cloud-content-container {
+    padding: 20px 10px;
+  }
+
+  .cloud-content-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .cloud-content-container p {
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+  }
+
+  .cloud-features-section h3 {
+    font-size: 1.25rem;
+  }
+
+  .cloud-feature {
+    padding: 15px;
+  }
+
+  .cloud-feature-icon {
+    font-size: 2rem;
+  }
+
+  .cloud-feature h4 {
+    font-size: 1rem;
+  }
+
+  .cloud-feature p {
+    font-size: 0.85rem;
+  }
+}

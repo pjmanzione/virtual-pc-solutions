@@ -1,0 +1,88 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #99c7eb;
+  color: white;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+}
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-image {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: #1f98f4;
+  margin-bottom: 15px;
+}
+
+.about-text p,
+.about-text ul {
+  font-size: 1rem;
+  color: #555;
+}
+
+.about-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #1f98f4;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about-footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-footer a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,75 @@
+/* src/components/PricingPlans.css */
+
+.pricing-plans {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: transparent;
+  height: auto;
+}
+
+.pricing-plans h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.pricing-plans p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #807c7c;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#bundle-card .hide-card h4 {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .plans {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .cloud-remote {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.349);
+    padding-bottom: 50px;
+    border: none;
+    padding: 15px 10px;
+    margin: 14px;
+  }
+  .pricing-plans .cloud-remote p {
+    font-size: 1rem;
+    padding: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .cloud-remote {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.349);
+    padding-bottom: 50px;
+    border: none;
+    padding: 15px 10px;
+    margin: 14px;
+  }
+  .pricing-plans .cloud-remote p {
+    font-size: 1rem;
+  }
+}
